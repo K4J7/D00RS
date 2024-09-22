@@ -16,12 +16,10 @@ local coroutine2 = coroutine.create(function()
     loadScript(url2)
 end)
 
-local coroutine3 = coroutine.create(function()
 
-loadScript(url3)
-end)
+
  
 -- Start both coroutines
 coroutine.resume(coroutine1)
 coroutine.resume(coroutine2)
-coroutine.resume(coroutine3)
+
